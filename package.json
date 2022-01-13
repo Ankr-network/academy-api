@@ -6,6 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "NODE_ENV=production pm2 start server.js --name api",
+    "stop": "pm2 kill",
     "build": "strapi build",
     "strapi": "strapi"
   },
