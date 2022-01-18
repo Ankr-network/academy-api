@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracks_categories",
+  "info": {
+    "singularName": "tracks-category",
+    "pluralName": "tracks-categories",
+    "displayName": "TracksCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "uid"
+    },
+    "label": {
+      "type": "string"
+    },
+    "tracks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::track.track",
+      "mappedBy": "tracks_category"
+    }
+  }
+}
