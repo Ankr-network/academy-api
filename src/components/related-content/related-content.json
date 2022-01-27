@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_related_content_related_contents",
+  "info": {
+    "displayName": "relatedContent",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "relatedContent": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_description_descriptions",
+  "info": {
+    "displayName": "Description",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_connected_terms_connected_terms",
+  "info": {
+    "displayName": "connectedTerms",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "connectedTerm": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "glossaries",
+  "info": {
+    "singularName": "glossary",
+    "pluralName": "glossaries",
+    "displayName": "Glossary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "GlossaryItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "glossary-item.glossary-item"
+    }
+  }
+}

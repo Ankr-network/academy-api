@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_tags_tags",
+  "info": {
+    "displayName": "tags",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "beginner",
+        "advanced"
+      ]
+    }
+  }
+}
