@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_item_glossary_items",
+  "info": {
+    "displayName": "GlossaryItem",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tags.tags"
+    },
+    "value": {
+      "type": "richtext"
+    },
+    "quote": {
+      "type": "richtext"
+    },
+    "termId": {
+      "type": "string"
+    },
+    "connectedTerms": {
+      "displayName": "connectedTerms",
+      "type": "component",
+      "repeatable": true,
+      "component": "connected-terms.connected-terms"
+    },
+    "relatedContent": {
+      "displayName": "relatedContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "related-content.related-content"
+    },
+    "description": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "description.description"
+    },
+    "key": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
