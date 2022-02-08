@@ -12,20 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "mainDescription": {
+    "Description": {
       "type": "text"
     },
-    "FooterDescription": {
-      "type": "richtext"
+    "ClassesAmount": {
+      "type": "integer"
+    },
+    "SubDescription": {
+      "type": "text"
+    },
+    "IsPublished": {
+      "type": "boolean"
+    },
+    "ImageSrc": {
+      "type": "string"
     },
     "modules": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::module.module",
-      "mappedBy": "course"
+      "target": "api::module.module"
     }
   }
 }

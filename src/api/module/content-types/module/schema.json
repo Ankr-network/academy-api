@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "course": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::course.course",
-      "inversedBy": "modules"
-    },
     "title": {
       "type": "string"
     },
